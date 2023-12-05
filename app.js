@@ -3,7 +3,7 @@
 //   } else {console.log('I did it! I linked jQuery and this js file!')};
 
 $(() => {
-	const $container = $('#container');
+  const $container = $('#container');
   console.log($container);
 
   const $h1 = $('<h1>');
@@ -31,5 +31,8 @@ $(() => {
   $h5.text('Holly Wand with Unicorn Hair Core');
   $container.append($h5);
 
-
-});
+  const $ul = $('<ul>');
+  console.log($ul)
+  $ul.text('butter beer');
+  $container.append($ul)
+})
