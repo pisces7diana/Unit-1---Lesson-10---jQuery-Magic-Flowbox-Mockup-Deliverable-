@@ -163,12 +163,10 @@ $(() => {
 
   $li1.remove();
 
-  const $h7 = $('<h4>');
-  console.log($h7);
-  $h7.text('New Wand with Unicorn Hair Core');
-  $container.append($h7);
-  $h4.after($h7);
-  $h7.css("color", "indigo");
+  $h5.text('New Wand with Unicorn Hair Core');
+  $container.append($h5);
+  $h4.after($h5);
+  $h5.css("color", "indigo");
 
   $h4.remove();
 
@@ -185,4 +183,10 @@ $(() => {
 
   $li5.removeClass('cabbage');
 
+  $h6.text('Fall 2018');
+
+  $li1.text('butter beer');
+  $ul.prepend($li1);
+
+  $ul.attr('storage', 'chest');
 })
