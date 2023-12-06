@@ -174,6 +174,15 @@ $(() => {
 
   $h3.after($h4);
 
+  $('.secret').hide('slow');
 
+  $('.secret').delay(2000).hide('slow');
+
+  $('.secret').show('slow');
+
+  $li5.addClass('cabbage').text('leash');
+  $ul.append($li5);
+
+  $li5.removeClass('cabbage');
 
 })
