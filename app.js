@@ -23,7 +23,7 @@ $(() => {
 
   const $h4 = $('<h4>');
   console.log($h4)
-  $h4.addClass('cat').text('Pennygirl and Roam');
+  $h4.addClass('dog').text('Pennygirl and Roam');
   $container.append($h4);
 
   const $h5 = $('<h4>');
@@ -31,8 +31,38 @@ $(() => {
   $h5.text('Holly Wand with Unicorn Hair Core');
   $container.append($h5);
 
-  const $ul = $('<ul>');
-  console.log($ul)
-  $ul.text('butter beer');
-  $container.append($ul)
+  const $ul = $("<ul storage='trunk'></ul>");
+  console.log($ul);
+  $container.append($ul);
+
+  const $li1 = $("<li></li>")
+  console.log($li1);
+  $li1.text('butter beer');
+  $ul.append($li1);
+
+  const $li2 = $("<li></li>")
+  console.log($li2);
+  $li2.addClass('secret').text('invisibility cloak');
+  $ul.append($li2);
+
+  const $li3 = $("<li></li>")
+  console.log($li3);
+  $li3.addClass('secret').text('magic map');
+  $ul.append($li3);
+
+  const $li4 = $("<li></li>")
+  console.log($li4);
+  $li4.addClass('secret').text('time turner');
+  $ul.append($li4);
+
+  const $li5 = $("<li></li>")
+  console.log($li5);
+  $li5.addClass('dog').text('leash');
+  $ul.append($li5);
+
+  const $li6 = $("<li></li>")
+  console.log($li6);
+  $li6.text("Bertie Bott's Every Flavor [Jelly] Beans.");
+  $ul.append($li6);
+
 })
