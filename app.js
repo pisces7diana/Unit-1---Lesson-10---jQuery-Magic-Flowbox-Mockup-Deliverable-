@@ -40,7 +40,6 @@ $(() => {
   $li1.text('butter beer');
   $ul.append($li1);
 
-
   const $li2 = $("<li></li>")
   console.log($li2);
   $li2.addClass('secret').text('invisibility cloak');
