@@ -65,4 +65,99 @@ $(() => {
   $li6.text("Bertie Bott's Every Flavor [Jelly] Beans.");
   $ul.append($li6);
 
+  const $h6 = $('<h5>');
+  console.log($h6);
+  $h6.text('Spring 2017');
+  $container.append($h6);
+
+  const $table = $('<table>');
+  console.log($table);
+  $container.append($table);
+
+  const $thead = $("<thead>");
+  console.log($thead);
+  $table.append($thead);
+
+  const $th1 = $("<th>");
+  console.log($th1);
+  $th1.text('Day');
+  $thead.append($th1);
+
+  const $th2 = $("<th>");
+  console.log($th2);
+  $th2.text('Classes');
+  $thead.append($th2);
+
+  const $tr = $("<tr>");
+  console.log($tr);
+  $table.append($tr);
+
+  const $td1 = $("<td>");
+  console.log($td1);
+  $td1.text('Monday');
+  $tr.append($td1);
+
+  const $td2 = $("<td>");
+  console.log($td2);
+  $td2.text('Herbology');
+  $tr.append($td2);
+
+  const $tr1 = $("<tr>");
+  console.log($tr1);
+  $table.append($tr1);
+
+  const $td3 = $("<td>");
+  console.log($td3);
+  $td3.text('Tuesday');
+  $tr1.append($td3);
+
+  const $td4 = $("<td>");
+  console.log($td4);
+  $td4.text('Divination');
+  $tr1.append($td4);
+
+  const $tr2 = $("<tr>");
+  console.log($tr2);
+  $table.append($tr2);
+
+  const $td5 = $("<td>");
+  console.log($td5);
+  $td5.text('Wednesday');
+  $tr2.append($td5);
+
+  const $td6 = $("<td>");
+  console.log($td6);
+  $td6.text('History of Magic');
+  $tr2.append($td6);
+
+  const $tr3 = $("<tr>");
+  console.log($tr3);
+  $table.append($tr3);
+
+  const $td7 = $("<td>");
+  console.log($td7);
+  $td7.text('Thursday');
+  $tr3.append($td7);
+
+  const $td8 = $("<td>");
+  console.log($td8);
+  $td8.text('Charms');
+  $tr3.append($td8);
+
+  const $tr4 = $("<tr>");
+  console.log($tr4);
+  $table.append($tr4);
+
+  const $td9 = $("<td>");
+  console.log($td9);
+  $td9.text('Friday');
+  $tr4.append($td9);
+
+  const $td10 = $("<td>");
+  console.log($td10);
+  $td10.text('Potions');
+  $tr4.append($td10);
+
+
+
 })
