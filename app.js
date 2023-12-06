@@ -40,6 +40,7 @@ $(() => {
   $li1.text('butter beer');
   $ul.append($li1);
 
+
   const $li2 = $("<li></li>")
   console.log($li2);
   $li2.addClass('secret').text('invisibility cloak');
@@ -157,6 +158,21 @@ $(() => {
   console.log($td10);
   $td10.text('Potions');
   $tr4.append($td10);
+
+  $h5.remove();
+
+  $li1.remove();
+
+  const $h7 = $('<h4>');
+  console.log($h7);
+  $h7.text('New Wand with Unicorn Hair Core');
+  $container.append($h7);
+  $h4.after($h7);
+  $h7.css("color", "indigo");
+
+  $h4.remove();
+
+  $h3.after($h4);
 
 
 
